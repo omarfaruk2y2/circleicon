@@ -5,10 +5,14 @@
 }
 body{
     min-height: 100vh;
+    background: url(images/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(60deg,rgb(172, 6, 116),rgb(150, 8, 185));
+  
 }
 .menu{
     position: relative;
@@ -17,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 .menu li{
     position: absolute;
